@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.left-panel {
+    position: relative;
+    top: 10vh;
+    display: grid;
+    width: 30vh;
+    min-height: 100vh;
+    grid-template-columns: 2;
+}
+.left-panel > button {
+    color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+    font-size: 2rem;
+    font-variant-caps: all-petite-caps;
+    border: 0;
+    grid-column: 1;
+}
+
+.left-panel > button:hover {
+    background-color: rgba(173, 216, 230, 0.7);
+}
+.home {
+    color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    left: 0px;
+    top: 2vh;
+    background: 0;
+    border: 0;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+
+.typewriter h1 {
+    position: absolute;
+    left: 35vh;
+    top: 10vh;
+    color: rgba(0, 0, 0, .8);
+    font-size: 8rem;
+    font-variant-caps: all-petite-caps;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    transition: 5s ease-in;
+}
+
+.top-panel
+{
+    position: absolute;
+    background-color: orange;
+    height: 10vh;
+    width: 100vw;
+}
+
+.loremIpsum {
+    position: absolute;
+    top: 20vh;
+    left: 32vh;
+    font-size: 3rem;
+}
+
+.picture {
+    display: flex;
+    width: 70vw;
+    background-color: blue;
+    position: absolute;
+    top: 11vh;
+    left: 32vh;
+    font-size: 3rem;
+}
